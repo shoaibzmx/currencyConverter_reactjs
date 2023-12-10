@@ -1,8 +1,47 @@
-# React + Vite
+# Currency Converter App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to the Currency Converter App! This application allows you to convert currency from one denomination to another.
 
-Currently, two official plugins are available:
+## Table of Contents
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Customization](#customization)
+- [Contributing](#contributing)
+- [License](#license)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
+- Convert currency from one denomination to another.
+- Dynamic fetching of currency exchange rates using the [fawazahmed0/currency-api](https://github.com/fawazahmed0/currency-api) API.
+- Swap between source and target currencies.
+- User-friendly interface with responsive design.
+
+## Installation
+1. Clone the repository to your local machine:
+   ```bash
+   git clone https://github.com/your-username/currency-converter-app.git
+2. Navigate to the project directory:
+   ```bash
+   cd currency-converter-app
+3. Install dependencies:
+   ```bash
+   npm install
+
+### Usage
+1. Run the application:
+   ```bash
+   npm start
+2. Open your browser and go to 'http://localhost:3000'.
+3. Enter the amount, select source and target currencies, and click the "Convert" button.
+
+### Customization
+You can customize the background image of the application by replacing the URL in App.js.
+
+### Contributing
+Contributions are welcome! If you have ideas for improvements or find any issues, feel free to open an issue or submit a pull request.
+
+### License
+This project is licensed under the MIT License.
+ 
+ 
+
